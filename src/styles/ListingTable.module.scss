@@ -1,0 +1,71 @@
+.div {
+  border-radius: 5px;
+
+  .header {
+    font-size: 17px !important;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+  }
+
+  .body {
+
+    .row {
+      display: flex;
+      justify-content: space-around;
+      padding: 2px;
+    }
+  }
+
+  .no,
+  .img,
+  .collection,
+  .name,
+  .rank,
+  .date,
+  .price,
+  .buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .no {
+    width: 5%;
+  }
+
+  .img {
+    width: 70px;
+
+    img {
+      width: 100%;
+      border-radius: 3px;
+    }
+  }
+
+  .collection {
+    width: 25%;
+  }
+
+  .name {
+    width: 25%;
+  }
+
+  .rank {
+    width: 10%;
+  }
+
+  .date {
+    width: 20%;
+  }
+
+  .price {
+    width: 20%;
+  }
+
+  .buy {
+    width: 70px;
+  }
+}

@@ -1,0 +1,66 @@
+.div {
+  border-radius: 5px;
+
+  .header {
+    font-size: 17px !important;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+  }
+
+  .body {
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      padding: 2px;
+    }
+  }
+
+  .noActivity {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img,
+  .name,
+  .no,
+  .date,
+  .price,
+  .buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img {
+    width: 10%;
+
+    img {
+      width: 95%;
+    }
+  }
+
+  .name {
+    width: 30%;
+  }
+
+  .no {
+    width: 5%;
+  }
+
+  .date {
+    width: 20%;
+  }
+
+  .price {
+    width: 10%;
+  }
+
+  .buy {
+    width: 10%;
+  }
+}
